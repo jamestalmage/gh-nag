@@ -1,0 +1,50 @@
+{
+  "name": "gh-nag",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Never Forget a PR or issue on one of your repositories again!",
+  "scripts": {
+    "build:chrome": "gulp --production --vendor=chrome && gulp pack --vendor=chrome",
+    "build:firefox": "gulp --production --vendor=firefox && gulp pack --vendor=firefox",
+    "build:opera": "gulp --production --vendor=opera && gulp pack --vendor=opera",
+    "dev:chrome": "gulp --watch --vendor=chrome",
+    "dev:firefox": "gulp --watch --vendor=firefox",
+    "dev:opera": "gulp --watch --vendor=opera"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.22",
+    "babel-eslint": "^4.1.0",
+    "babel-loader": "^5.3.2",
+    "chai": "^3.2.0",
+    "debounce": "^1.0.0",
+    "del": "^2.0.2",
+    "eslint": "^1.3.1",
+    "eslint-loader": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^0.3.1",
+    "gulp-cache": "^0.2.10",
+    "gulp-filter": "^3.0.1",
+    "gulp-git": "^1.2.4",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-json-transform": "^0.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-sass": "^2.0.4",
+    "gulp-sequence": "^0.4.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tag-version": "^1.3.0",
+    "gulp-util": "^3.0.5",
+    "gulp-zip": "^3.0.2",
+    "require-dir": "^0.3.0",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^1.11.0",
+    "webpack-stream": "^2.1.0",
+    "yargs": "^3.21.0"
+  },
+  "dependencies": {
+    "xhr-request": "^1.0.1"
+  }
+}
